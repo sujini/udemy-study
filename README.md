@@ -12,7 +12,7 @@ $npm install @babel/cli @babel/core @babel/preset-env babel-loader --save-dev
 pakage.json 에 npm install로 설치된 패키지명들이 저장됨
 dependencies에는 --save 명령로 했을시
 devDependencies에는 --save-dev 명령로 했을시
-dependencies와 devDependencies의 차이는 배포용 패키지(실제 상품에서 사용할 패키지)와 개발용 패키지(목, 테스트 패키지 등)의 차이
+dependencies와 devDependencies의 차이는 배포용 패키지(실제 운영용)와 개발용 패키지(테스트)의 차이
 ```
 >* ### babel/cli: 커맨드라인명령으로 babel 기능을 실행할수있게함
 >* ### babel/preset-env: 함께 사용되어야 하는 Babel 플러그인을 모아 둔 것
