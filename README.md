@@ -1,7 +1,7 @@
 # Webpack & Babel
 
-##- webpack : 모듈번들러
-##- babel : es6/es7 이상의 자바스크립트 문법을 하위브라우저와 호환가능하도록 es5문법으로 변환시켜주는 도구
+## - webpack : 모듈번들러
+## - babel : es6/es7 이상의 자바스크립트 문법을 하위브라우저와 호환가능하도록 es5문법으로 변환시켜주는 도구
 ```
 $npm init //package.json 파일생성
 $npm install @babel/cli @babel/core @babel/preset-env --save-dev
@@ -24,7 +24,7 @@ $npm install @babel/cli @babel/core @babel/preset-env --save-dev
 >실행하려면 npm run build 또는 npm run serve
 >mode : development | production 모드로 설정하면 알아서 자동최적화되는 웹팩최신기능
 
-###webpack-dev-server
+### webpack-dev-server
 굳이 build하여 새로넣지않아도
 로컬에서 작업중인 화면을 볼수있게하고 
 파일 내용 수정시 자동으로 내용을 새로고침
