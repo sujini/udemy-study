@@ -51,7 +51,7 @@ module.exports = {
                 include: path.join(__dirname), //해당경로의
                 exclude: /(node_modules)|(dist)/, //해당폴더제외하고
                 use: {
-                    loader: 'babel-loader', //babel실행가능하게(하위브라우저지원을 위해 문법변환)
+                    loader: 'babel-loader', //babel실행가능하게(하위브라우저지원을 위해 문법변환) 이로써 babel과 webpack을 함께사용
                     options: {
                         presets: ['env'] 
                     }
