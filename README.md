@@ -6,6 +6,14 @@
 $npm init //package.json 파일생성
 $npm install @babel/cli @babel/core @babel/preset-env babel-loader --save-dev
 ```
+```
+## NOTE:
+### --save-dev명령어는?
+pakage.json 에 npm install로 설치된 패키지명들이 저장됨
+dependencies에는 --save 명령로 했을시
+devDependencies에는 --save-dev 명령로 했을시
+dependencies와 devDependencies의 차이는 배포용 패키지(실제 상품에서 사용할 패키지)와 개발용 패키지(목, 테스트 패키지 등)의 차이
+```
 >* ### babel/cli: 커맨드라인명령으로 babel 기능을 실행할수있게함
 >* ### babel/preset-env: 함께 사용되어야 하는 Babel 플러그인을 모아 둔 것
 >* ### package-lock.json파일: npm패키지들이 각각 수많은 의존성을 가지고 있기 때문에 의존성 패키지들을 다운받는 URL을 미리 모아둬 다른 컴퓨터에서 package.json을 통해 npm install로 패키지들을 설치시 훨씬 빠른 속도로 패키지를 받을 수 있도록 도움.
